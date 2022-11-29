@@ -1,0 +1,81 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(../img/login.png);
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+}
+
+#maxbox{
+    margin: 0 auto;
+    margin-top: 200px;
+    padding: 150px;
+
+    background-color: #00000090;
+    text-align: center;
+    width: 450px;
+    height: 400px;
+    border-radius: 20px;
+}
+#maxbox h3{
+    padding: 0;
+    padding-top: 0px;
+    color: #a6c0fe;
+    font-size: 40px;
+}
+
+#maxbox .inputbox{
+    margin-top: 60px;
+
+}
+#maxbox .inputText{
+    margin-top:50px;
+
+}
+#maxbox .inputText span{
+    color: white;
+    font-size: 32px;
+
+
+}
+#maxbox .inputText input{
+    border: 0;
+    padding: 9px;
+    border-bottom: 1px solid white;
+    background-color: #FFFFFF00;
+    color: white;
+}
+#maxbox .inputbox .inputButton{
+    margin: 0;
+    border: 0;
+    margin-top: 60px;
+    width: 190px;
+    height: 40px;
+    border-radius: 30px;
+    color: white;
+    background-image: linear-gradient(120deg, #a6c0fe 0%, #f68084 100%);
+    font-size: 20px;
+}
+#sign_up{
+    margin-top: 50px;
+    color: white;
+    font-size: 17px;
+}
+#sign_up a{
+    color:#3498db ;
+}
+.login-button { /* 按钮美化 */
+    width: 270px; /* 宽度 */
+    height: 40px; /* 高度 */
+    border-width: 0px; /* 边框宽度 */
+    border-radius: 3px; /* 边框半径 */
+    background: #1E90FF; /* 背景颜色 */
+    cursor: pointer; /* 鼠标移入按钮范围时出现手势 */
+    outline: none; /* 不显示轮廓线 */
+    font-family: Microsoft YaHei; /* 设置字体 */
+    color: white; /* 字体颜色 */
+    font-size: 17px; /* 字体大小 */
+}
+.login-button:hover { /* 鼠标移入按钮范围时改变颜色 */
+    background: #5599FF;
+}
